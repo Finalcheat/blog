@@ -5,15 +5,12 @@ import tornado.ioloop
 import tornado.web
 
 class MainHandler(tornado.web.RequestHandler):
-    def get(self):
-        auth = self.get_argument("auth")
-        if auth != "007":
-            return self.write("error")
+    def post(self):
         print "test"
         self.write("Hello, world")
 
 application = tornado.web.Application([
-    (r"/git_pull_code/", MainHandler),
+    (r"/git_pull_code_auth_is_007/", MainHandler),
 ])
 
 if __name__ == "__main__":
