@@ -1,12 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import os
 import tornado.ioloop
 import tornado.web
 
 class MainHandler(tornado.web.RequestHandler):
     def post(self):
-        print "test"
+        print("git pull start")
+        os.system("cd /root/blog")
+        os.system("git pull origin master &")
+        print("git pull finish")
         self.write("Hello, world")
 
 application = tornado.web.Application([
