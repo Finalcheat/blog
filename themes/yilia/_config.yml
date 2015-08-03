@@ -2,7 +2,7 @@
 menu:
   主页: /
   所有文章: /archives
-  # 随笔: /tags/随笔
+  #随笔: /tags/随笔
 
 # SubNav
 subnav:
@@ -11,7 +11,7 @@ subnav:
   #rss: "#"
   #zhihu: "#"
   #douban: "#"
-  #mail: "finalcheat@gmail.com"
+  #mail: finalcheat@gmail.com
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -28,14 +28,15 @@ mathjax: true
 animate: true
 
 # 是否在新窗口打开链接
-open_in_new: true
+open_in_new: false
+#open_in_new: true
 
 # Miscellaneous
 google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar: "http://d.pcs.baidu.com/thumbnail/ef587efa9e6623babe1b19682b995929?fid=1647321844-250528-581760246079575&time=1438527600&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-YXvqUZKI6%2FdebmfVX3TbBTvnwn4%3D&rt=sh&expires=2h&r=140559822&sharesign=unknown&size=c710_u500&quality=100" 
+avatar: "http://www.finalcheat.com/image/icon.jpg"
 #是否开启分享
 share: true
 #是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
@@ -58,6 +59,6 @@ friends: false
 
 #是否开启“关于我”。
 #不开启——
-aboutme: false
+#aboutme: false
 #开启——
-#aboutme: 
+aboutme: "纵然记忆抹不去爱与恨都还在心里"
