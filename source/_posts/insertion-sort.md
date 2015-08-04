@@ -32,7 +32,7 @@ date: 2015/08/03 23:20:00
 			A[i + 1] = key
 			
 			
-## C/C++代码
+## C/C++
 
 	void insertionSort(int *arr, const unsigned int length)
 	{
@@ -50,7 +50,7 @@ date: 2015/08/03 23:20:00
 	}
 	
 	
-## Python代码
+## Python
 
 	def insertionSort(arr):
 		length = len(arr)
