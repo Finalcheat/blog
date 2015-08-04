@@ -1,6 +1,8 @@
 title: 单链表反转
 date: 2015/08/04 23:08:00
-tags: 链表
+tags: 
+- 链表
+- C/C++
 categories: C/C++
 
 ---

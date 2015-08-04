@@ -1,6 +1,10 @@
 title: 插入排序（Insertion Sort)
 date: 2015/08/03 23:20:00
-tags: 排序
+tags: 
+- 排序
+- 算法
+- C/C++
+- Python
 categories: 算法导论
 
 ---

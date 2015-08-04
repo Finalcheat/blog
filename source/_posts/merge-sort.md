@@ -1,6 +1,10 @@
 title: 归并排序（Merge Sort）
 date: 2015/08/04 10:44:00
-tags: 排序
+tags: 
+- 排序
+- 算法
+- C/C++
+- Python
 categories: 算法导论
 
 ---
