@@ -10,6 +10,8 @@ categories: 算法导论
 ---
 >归并排序（英语：Merge Sort，或mergesort），是创建在归并操作上的一种有效的[排序算法](https://zh.wikipedia.org/wiki/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95)，效率为O(n logn)。1945年由[约翰·冯·诺伊曼](https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%BF%B0%C2%B7%E5%86%AF%C2%B7%E8%AF%BA%E4%BC%8A%E6%9B%BC)首次提出。该算法是采用[分治法](https://zh.wikipedia.org/wiki/%E5%88%86%E6%B2%BB%E6%B3%95)（Divide and Conquer）的一个非常典型的应用，且各层分治递归可以同时进行。
 
+<!-- more -->
+
 ## 算法描述
 归并操作的过程如下：
 
