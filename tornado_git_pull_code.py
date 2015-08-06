@@ -5,6 +5,7 @@ import os
 import tornado.ioloop
 import tornado.web
 import motor
+import json
 
 def getMongoDBClient():
     return motor.MotorClient()
@@ -16,12 +17,14 @@ class MainHandler(tornado.web.RequestHandler):
         os.system("cd /root/blog")
         os.system("git pull origin master &")
         print("git pull finish")
-        headers = self.request.headers
+        #headers = self.request.headers
         body = self.request.body
+        body = json.loads(body)
+        #print body
         mongo = getMongoDBClient()
-        yield mongo.bitbucket.record.insert(headers)
+        #yield mongo.bitbucket.record.insert(headers)
         yield mongo.bitbucket.record.insert(body)
-        self.write("Hello, world")
+        self.write("finish")
 
 
 application = tornado.web.Application([
