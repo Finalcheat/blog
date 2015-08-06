@@ -17,8 +17,10 @@ class MainHandler(tornado.web.RequestHandler):
         os.system("git pull origin master &")
         print("git pull finish")
         headers = self.request.headers
+        body = self.request.body
         mongo = getMongoDBClient()
         yield mongo.bitbucket.record.insert(headers)
+        yield mongo.bitbucket.record.insert(body)
         self.write("Hello, world")
 
 
