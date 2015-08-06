@@ -4,14 +4,23 @@
 import os
 import tornado.ioloop
 import tornado.web
+import motor
+
+def getMongoDBClient():
+    return motor.MotorClient()
 
 class MainHandler(tornado.web.RequestHandler):
+    @tornado.gen.coroutine
     def post(self):
         print("git pull start")
         os.system("cd /root/blog")
         os.system("git pull origin master &")
         print("git pull finish")
+        headers = self.request.headers
+        mongo = getMongoDBClient()
+        yield mongo.bitbucket.record.insert(headers)
         self.write("Hello, world")
+
 
 application = tornado.web.Application([
     (r"/git_pull_code_auth_is_007/", MainHandler),
