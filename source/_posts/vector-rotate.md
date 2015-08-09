@@ -6,7 +6,6 @@ tags:
 - 旋转
 - C/C++
 categories:
-- C/C++
 - 编程珠玑
 
 ---
