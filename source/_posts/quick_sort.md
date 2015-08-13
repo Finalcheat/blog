@@ -1,0 +1,53 @@
+title: 快速排序
+create_time: 2015/08/13 21:35:00
+tags:
+- 算法
+- C/C++
+- 排序
+- 快排
+categories:
+- 算法导论
+
+---
+>[快速排序](https://zh.wikipedia.org/wiki/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F)是由东尼·霍尔所发展的一种排序算法。在平均状况下，排序n个项目要Ο(n log n)次比较。在最坏状况下则需要Ο(n2)次比较，但这种状况并不常见。事实上，快速排序通常明显比其他Ο(n log n)算法更快，因为它的内部循环（inner loop）可以在大部分的架构上很有效率地被实现出来。
+
+### 算法
+快速排序使用分治法（Divide and conquer）策略来把一个序列（list）分为两个子序列（sub-lists）。
+步骤为：
+
+1. 从数列中挑出一个元素，称为"基准"（pivot）。
+2. 重新排序数列，所有元素比基准值小的摆放在基准前面，所有元素比基准值大的摆在基准的后面（相同的数可以到任一边）。在这个分区结束之后，该基准就处于数列的中间位置。这个称为分区（partition）操作。
+3. 递归地（recursive）把小于基准值元素的子数列和大于基准值元素的子数列排序。
+
+递归的最底部情形，是数列的大小是零或一，也就是永远都已经被排序好了。虽然一直递归下去，但是这个算法总会结束，因为在每次的迭代（iteration）中，它至少会把一个元素摆到它最后的位置去。
+
+### 数组的划分
+	int partition(int *arr, int start, int end)
+	{
+	    int value = arr[start];
+	    while (start < end)
+	    {
+	        while (start < end && arr[end] >= value)
+	            --end;
+
+	        arr[start] = arr[end];
+
+	        while (start < end && arr[start] <= value)
+	            ++start;
+
+	        arr[end] = arr[start];
+	    }
+	    arr[start] = value;
+	    return start;
+	}
+
+### 快速排序
+	void quick_sort(int *arr, int start, int end)
+	{
+	    if (start < end)
+	    {
+	        int middle = partition(arr, start, end);
+	        quick_sort(arr, start, middle - 1);
+	        quick_sort(arr, middle + 1, end);
+	    }
+	}
