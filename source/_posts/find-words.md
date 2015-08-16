@@ -11,10 +11,11 @@ categories:
 ## 编程珠玑
 > 给定一个英语单词词典，请找出所有的变位词集。例如，因为"pots","stop","tops"相互之间都是由另一个词的各个字母改变序列而构成的，因此这些词相互之间就是变位词集。
 
-## 实现思路
+### 实现思路
 对每一个单词进行字母排序得到新的单词，使用新的单词作为key构造字典，变位词集的key是相同的，值则是变位词集。
 
-## C++
+### C++
+```cpp
 	typedef std::map< std::string, std::vector<std::string> > strMap;
 	strMap findWords(const std::vector<std::string> &words)
 	{
@@ -38,8 +39,10 @@ categories:
 	    }
 	    return wordsMap;
 	}
-	
-## 测试
+```
+
+### 测试
+```cpp
 	#include <iostream>
 	#include <map>
 	#include <algorithm>
@@ -66,3 +69,4 @@ categories:
 
 	    return 0;
 	}
+```

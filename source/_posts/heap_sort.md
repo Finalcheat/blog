@@ -14,22 +14,29 @@ categories:
 
 ## 基本操作
 #### 父节点
+```cpp
 	inline int _parent(const int i)
 	{
 	    return i / 2 - 1;
 	}
+```
 #### 左孩子
+```cpp
 	inline int _left(const int i)
 	{
 	    return i * 2 + 1;
 	}
+```
 #### 右孩子
+```cpp
 	inline int _right(const int i)
 	{
 	    return i * 2 + 2;
 	}
+```
 
-## 维护堆的性质
+### 维护堆的性质
+```cpp
 	void max_heapify(int *arr, const int len, const int i)
 	{
 	    int left = _left(i);
@@ -47,13 +54,17 @@ categories:
 	        max_heapify(arr, len, larget);
 	    }
 	}
-## 建堆
+```
+### 建堆
+```cpp
 	void build_max_heap(int *arr, const int len)
 	{
 	    for (int i = len / 2; i >= 0; --i)
 	        max_heapify(arr, len, i);
 	}
-## 堆排序
+```
+### 堆排序
+```cpp
 	void heap_sort(int *arr, int len)
 	{
 	    build_max_heap(arr, len);
@@ -65,3 +76,4 @@ categories:
 	        max_heapify(arr, --len, 0);
 	    }
 	}
+```

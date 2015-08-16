@@ -22,6 +22,7 @@ categories:
 递归的最底部情形，是数列的大小是零或一，也就是永远都已经被排序好了。虽然一直递归下去，但是这个算法总会结束，因为在每次的迭代（iteration）中，它至少会把一个元素摆到它最后的位置去。
 
 ### 数组的划分
+```cpp
 	int partition(int *arr, int start, int end)
 	{
 	    int value = arr[start];
@@ -40,8 +41,10 @@ categories:
 	    arr[start] = value;
 	    return start;
 	}
+```
 
 ### 快速排序
+```cpp
 	void quick_sort(int *arr, int start, int end)
 	{
 	    if (start < end)
@@ -51,3 +54,4 @@ categories:
 	        quick_sort(arr, middle + 1, end);
 	    }
 	}
+```

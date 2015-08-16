@@ -12,7 +12,7 @@ categories: 算法导论
 
 <!-- more -->
 
-## 算法描述
+### 算法描述
 归并操作的过程如下：
 
 1. 申请空间，使其大小为两个已经排序序列之和，该空间用来存放合并后的序列
@@ -21,7 +21,8 @@ categories: 算法导论
 4. 重复步骤3直到某一指针到达序列尾
 5. 将另一序列剩下的所有元素直接复制到合并序列尾
 
-## C/C++
+### C/C++
+```cpp
 	void merge(int *arr, unsigned int p, unsigned int q, unsigned int r)
 	{
 	    const unsigned int tmpArr1Len = q - p + 1;
@@ -82,8 +83,10 @@ categories: 算法导论
 	        merge(arr, p, q, r);
 	    }
 	}
+```
 	
-## Python
+### Python
+```py
 	def merge(arr, p, q, r):
 	    tmpArr1 = arr[p : (q + 1)]
 	    tmpArr2 = arr[(q + 1) : (r + 1)]
@@ -118,3 +121,4 @@ categories: 算法导论
 	        mergeSort(arr, start, middle)
 	        mergeSort(arr, middle + 1, end)
 	        merge(arr, start, middle, end)
+```

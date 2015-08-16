@@ -12,7 +12,7 @@ categories: 算法导论
 
 <!-- more -->
 
-## 算法描述
+### 算法描述
 一般来说，插入排序都采用in-place在数组上实现。具体算法描述如下：
 
 1. 从第一个元素开始，该元素可以认为已经被排序
@@ -27,8 +27,8 @@ categories: 算法导论
 
 
 
-## 算法导论中的伪代码
-
+### 算法导论中的伪代码
+```
 	INSERTION_SORT(A)
 		for j = 2 to A.length
 			key = A[j]
@@ -38,10 +38,10 @@ categories: 算法导论
 				A[i + 1] = A[i]
 				i = i - 1
 			A[i + 1] = key
+```
 			
-			
-## C/C++
-
+### C/C++
+```cpp
 	void insertionSort(int *arr, const unsigned int length)
 	{
 		for (unsigned int i = 1; i < length; ++i)
@@ -56,10 +56,10 @@ categories: 算法导论
         	arr[j + 1] = key;
     	}
 	}
+```
 	
-	
-## Python
-
+### Python
+```py
 	def insertionSort(arr):
 		length = len(arr)
     	for i in range(1, length):
@@ -69,7 +69,7 @@ categories: 算法导论
             	arr[j + 1] = arr[j]
             	j = j - 1
         	arr[j + 1] = key
-      
+```   
 
 
 

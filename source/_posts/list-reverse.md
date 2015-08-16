@@ -2,6 +2,7 @@ title: 单链表反转
 date: 2015/08/04 23:08:00
 tags: 
 - 链表
+- 反转
 - C/C++
 categories: 
 - C/C++
@@ -13,14 +14,17 @@ categories:
 
 <!-- more -->
 
-## 节点定义
+### 节点定义
+```cpp
 	typedef struct listNode
 	{
 	    int value;
 	    struct listNode *next;
 	} listNode;
+```
 	
-## 创建链表
+### 创建链表
+```cpp
 	listNode *createList()
 	{
 	    listNode *head = 0;
@@ -42,8 +46,10 @@ categories:
 
 	    return head;
 	}
+```
 	
-## 反转
+### 反转
+```cpp
 	listNode *reverse(listNode *head)
 	{
 	    listNode *currentNode = 0;
@@ -57,8 +63,10 @@ categories:
 	    }
 	    return currentNode;
 	}
+```
 	
-## 输出
+### 输出
+```cpp
 	void printList(listNode *head)
 	{
 	    while (head)
@@ -68,8 +76,10 @@ categories:
 	    }
 	    std::cout << std::endl;
 	}
-	
-## 释放链表资源
+```
+
+### 释放链表资源
+```cpp
 	void freeList(listNode *head)
 	{
 	    listNode *freeNode = 0;
@@ -80,8 +90,10 @@ categories:
 	        delete freeNode;
 	    }
 	}
+```
 	
-## 测试
+### 测试
+```cpp
 	int main()
 	{
 	    listNode *head = createList();
@@ -90,3 +102,4 @@ categories:
 	    print_list(head);
 	    freeList(head);
 	}
+```

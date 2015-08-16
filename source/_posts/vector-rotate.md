@@ -20,7 +20,8 @@ categories:
 
 <!-- more -->
 
-## C/C++
+### C/C++
+```cpp
 	void reverse(char *arr, unsigned int start, unsigned int end)
 	{
 	    while (start < end)
@@ -40,3 +41,4 @@ categories:
 	    reverse(arr, i, length - 1);      /* cbahgfed */
 	    reverse(arr, 0, length - 1);      /* defghabc */
 	}
+```

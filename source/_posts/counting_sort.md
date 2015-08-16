@@ -10,7 +10,7 @@ categories:
 - 算法导论
 
 ---
->[计数排序](https://zh.wikipedia.org/wiki/%E8%AE%A1%E6%95%B0%E6%8E%92%E5%BA%8F)（Counting sort）是一种稳定的线性时间排序算法。计数排序使用一个额外的数组C，其中第i个元素是待排序数组A中值等于i的元素的个数。然后根据数组C来将A中的元素排到正确的位置
+>[计数排序](https://zh.wikipedia.org/wiki/%E8%AE%A1%E6%95%B0%E6%8E%92%E5%BA%8F)（Counting sort）是一种稳定的线性时间排序算法。计数排序使用一个额外的数组C，其中第i个元素是待排序数组A中值等于i的元素的个数。然后根据数组C来将A中的元素排到正确的位置。
 
 ### 计数排序的特征
 >计数排序假设$n$个输入元素中的每一个都是在$0$到$k$区间内的一个整数，其中$k$为某个整数。当$k=O(n)$时，排序的运行时间为$O(n)$。
@@ -20,6 +20,7 @@ categories:
 >在计数排序算法的代码中，假设输入是一个数组$A[1..n]$，$A.length=n$。我们还需要两个数组：$B[1..n]$存放排序的输出，$C[0..k]$提供临时存储空间。
 
 #### 伪代码
+```
 	COUNTING-SORT(A, B, k)
 		let C[O..K] be a new array
 		for i = 0 to k
@@ -33,8 +34,10 @@ categories:
 		for j = A.length downto 1
 			B[C[A[j]]] = A[j]
 			C[A[j]] = C[A[j]] - 1
+```
 		
 ### C/C++
+```cpp
 	void counting_sort(int *arr, const int length, const int max)
 	{
 	    if (max <= 0)
@@ -57,8 +60,10 @@ categories:
 	    delete[] b;
 	    delete[] c;
 	}
+```
 	
 ### 测试
+```cpp
 	#include <iostream>
 	#include <stdlib.h>
 	#include <time.h>
@@ -86,6 +91,7 @@ categories:
 	    std::cout << (double)(clock() - start) / CLOCKS_PER_SEC << std::endl;
 	    std::cout << "std::sort finish" << std::endl;
 	}
+```
 	
 这里和std::sort比较下，随机生成5亿个数，数的范围为[0..100]，分别使用counting_sort和std::sort排序。
 >c++ -O2 main.cpp
