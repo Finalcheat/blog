@@ -6,7 +6,7 @@ menu:
 
 # SubNav
 subnav:
-  github: "https://github.com/Finalcheat"
+  github: "https://www.github.com/Finalcheat"
   #weibo: "#"
   #rss: "#"
   #zhihu: "#"
@@ -36,7 +36,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar: "http://www.finalcheat.com/image/icon.jpg"
+avatar: "http://blog.finalcheat.com/image/icon.jpg"
 #是否开启分享
 share: true
 #是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
