@@ -1,10 +1,11 @@
 title: 二叉树最大深度
 create_time: 2016/03/06 16:01:57
 tags:
-- leetcode
-- C++
+- Tree
+- Depth-first Search
 categories:
 - leetcode
+- C++
 
 ---
 ## [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)

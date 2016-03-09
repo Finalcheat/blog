@@ -1,10 +1,10 @@
 title: Excel表格列标题
 create_time: 2016/03/07 14:50:57
 tags:
-- leetcode
-- C++
+- Math
 categories:
 - leetcode
+- C++
 
 ---
 ## [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)

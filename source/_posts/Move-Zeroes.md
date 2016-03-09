@@ -1,10 +1,11 @@
 title: 将0移动到数组后面
 create_time: 2016/03/07 13:30:46
 tags:
-- leetcode
-- C++
+- Array
+- Two Pointers
 categories:
 - leetcode
+- C++
 
 ---
 ## [Move Zeroes](https://leetcode.com/problems/move-zeroes/)

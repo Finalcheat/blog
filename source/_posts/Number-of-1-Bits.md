@@ -1,10 +1,10 @@
 title: 二进制中1的个数
 create_time: 2016/03/08 19:33:25
 tags:
-- leetcode
-- C++
+- Bit Manipulation
 categories:
 - leetcode
+- C++
 
 ---
 ## [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)

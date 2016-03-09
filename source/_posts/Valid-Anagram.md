@@ -1,10 +1,11 @@
 title: 验证变位词
 create_time: 2016/03/07 14:20:01
 tags:
-- leetcode
-- C++
+- Hash Table
+- Sort
 categories:
 - leetcode
+- C++
 
 ---
 ## [Valid Anagram](https://leetcode.com/problems/valid-anagram/)

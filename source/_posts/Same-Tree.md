@@ -1,10 +1,11 @@
 title: 判断二叉树是否相同
 create_time: 2016/03/07 14:01:05
 tags:
-- leetcode
-- C++
+- Tree
+- Depth-first Search
 categories:
 - leetcode
+- C++
 
 ---
 ## [Same Tree](https://leetcode.com/problems/same-tree/)

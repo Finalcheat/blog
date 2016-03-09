@@ -1,10 +1,12 @@
 title: 丢失的数字
 create_time: 2016/03/08 19:13:02
 tags:
-- leetcode
-- C++
+- Array
+- Math
+- Bit Manipulation
 categories:
 - leetcode
+- C++
 
 ---
 ## [Missing Number](https://leetcode.com/problems/missing-number/)

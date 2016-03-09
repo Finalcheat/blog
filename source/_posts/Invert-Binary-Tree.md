@@ -1,10 +1,10 @@
 title: 反转二叉树
 create_time: 2016/03/07 12:14:01
 tags:
-- leetcode
-- C++
+- Tree
 categories:
 - leetcode
+- C++
 
 ---
 ## [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)

@@ -1,10 +1,11 @@
 title: 判断链表中是否存在环
 create_time: 2016/03/08 19:58:09
 tags:
-- leetcode
-- C++
+- Linked List
+- Two Pointers
 categories:
 - leetcode
+- C++
 
 ---
 ## [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)

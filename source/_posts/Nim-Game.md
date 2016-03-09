@@ -1,10 +1,10 @@
 title: 取石子游戏
 create_time: 2016/03/06 15:17:18
 tags:
-- leetcode
-- C++
+- Math
 categories:
 - leetcode
+- C++
 
 ---
 ## [Nim Game](https://leetcode.com/problems/nim-game/)

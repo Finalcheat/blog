@@ -1,10 +1,11 @@
 title: 验证是否包含重复值
 create_time: 2016/03/07 15:10:08
 tags:
-- leetcode
-- C++
+- Array
+- Hash Table
 categories:
 - leetcode
+- C++
 
 ---
 ## [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
