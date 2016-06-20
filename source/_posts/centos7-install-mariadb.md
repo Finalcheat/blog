@@ -66,7 +66,7 @@ MariaDB [(none)]> set password for 'root'@'localhost' = password('password');
 
 ### 只监听内网
 默认是监听地址0.0.0.0，也就是主机上的所有ip地址，我这里只希望它内网使用，不监听外网地址。
-修改MariaD配置文件(我这里是/etc/my.cnf.d/server.cnf)，加上下面这一行:
+修改MariaDB配置文件(我这里是/etc/my.cnf.d/server.cnf)，加上下面这一行:
 <pre>
 bind-address = 192.168.1.91
 </pre>
