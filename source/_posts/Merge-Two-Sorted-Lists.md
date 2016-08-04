@@ -1,5 +1,5 @@
 title: 合并两个已排序的链表
-create_time: 2016/03/15 17:24:47
+date: 2016/03/15 17:24:47
 tags:
 - Linked List
 categories:
