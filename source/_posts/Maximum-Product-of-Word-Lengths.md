@@ -1,5 +1,5 @@
 title: 单词长度的最大积
-create_time: 2016/03/13 14:36:07
+date: 2016/03/13 14:36:07
 tags:
 - Bit Manipulation
 categories:

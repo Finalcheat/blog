@@ -1,5 +1,5 @@
 title: 最长公共前缀字符
-create_time: 2016/07/26 21:33:09
+date: 2016/07/26 21:33:09
 tags:
 - String
 categories:

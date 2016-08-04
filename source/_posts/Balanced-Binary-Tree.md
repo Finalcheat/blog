@@ -1,5 +1,5 @@
 title: 判断二叉树是否平衡
-create_time: 2016/03/27 13:32:47
+date: 2016/03/27 13:32:47
 tags:
 - Tree
 - Depth-first Search

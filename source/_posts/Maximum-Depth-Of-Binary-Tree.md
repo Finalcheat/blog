@@ -1,5 +1,5 @@
 title: 二叉树最大深度
-create_time: 2016/03/06 16:01:57
+date: 2016/03/06 16:01:57
 tags:
 - Tree
 - Depth-first Search

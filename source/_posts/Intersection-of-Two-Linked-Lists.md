@@ -1,5 +1,5 @@
 title: 两个链表的交点
-create_time: 2016/03/23 13:48:09
+date: 2016/03/23 13:48:09
 tags:
 - Linked List
 categories:

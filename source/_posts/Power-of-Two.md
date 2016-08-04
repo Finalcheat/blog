@@ -1,5 +1,5 @@
 title: 判断一个数是否是2的幂
-create_time: 2016/04/04 13:06:35
+date: 2016/04/04 13:06:35
 tags:
 - Math
 - Bit Manipulation

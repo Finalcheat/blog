@@ -1,5 +1,5 @@
 title: 验证是否包含重复值
-create_time: 2016/03/07 15:10:08
+date: 2016/03/07 15:10:08
 tags:
 - Array
 - Hash Table

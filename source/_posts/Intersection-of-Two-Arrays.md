@@ -1,5 +1,5 @@
 title: 两个数组的相同数字
-create_time: 2016/05/21 17:19:06
+date: 2016/05/21 17:19:06
 tags:
 - Binary Search
 - Hash Table

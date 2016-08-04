@@ -1,5 +1,5 @@
 title: CentOS7 MariaDB数据库安装与配置
-create_time: 2016/06/19 21:52:09
+date: 2016/06/19 21:52:09
 tags:
 - CentOS
 - MariaDB

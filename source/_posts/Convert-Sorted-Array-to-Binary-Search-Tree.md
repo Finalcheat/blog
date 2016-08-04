@@ -1,5 +1,5 @@
 title: 将已排序的数组转成二叉搜索树
-create_time: 2016/03/12 14:34:08
+date: 2016/03/12 14:34:08
 tags:
 - Tree
 - Depth-first Search

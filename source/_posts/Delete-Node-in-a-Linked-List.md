@@ -1,5 +1,5 @@
 title: 删除单链表节点
-create_time: 2016/03/07 13:15:25 
+date: 2016/03/07 13:15:25 
 tags:
 - Linked List
 categories:

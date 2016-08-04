@@ -1,5 +1,5 @@
 title: 回文数
-create_time: 2016/05/28 20:25:01
+date: 2016/05/28 20:25:01
 tags:
 - Math
 categories:

@@ -1,5 +1,5 @@
 title: 二叉树前序遍历转成链表
-create_time: 2016/05/31 21:23:09
+date: 2016/05/31 21:23:09
 tags:
 - Tree
 - Depth-first Search

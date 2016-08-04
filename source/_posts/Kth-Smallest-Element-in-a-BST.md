@@ -1,5 +1,5 @@
 title: 二叉搜索树第k小的元素
-create_time: 2016/03/30 21:21:35
+date: 2016/03/30 21:21:35
 tags:
 - Tree
 - Binary Search

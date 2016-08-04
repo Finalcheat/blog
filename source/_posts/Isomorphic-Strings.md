@@ -1,5 +1,5 @@
 title: 同构字符串
-create_time: 2016/06/03 20:21:25
+date: 2016/06/03 20:21:25
 tags:
 - Hash Table
 categories:

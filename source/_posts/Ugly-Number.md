@@ -1,5 +1,5 @@
 title: 丑陋数
-create_time: 2013/04/02 14:17:09
+date: 2013/04/02 14:17:09
 tags:
 - Math
 categories:

@@ -1,5 +1,5 @@
 title: 双链表实现
-create_time: 2016/03/17 21:17:56
+date: 2016/03/17 21:17:56
 tags:
 - Linked List
 categories:

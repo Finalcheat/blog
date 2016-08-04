@@ -1,5 +1,5 @@
 title: 重复的数字
-create_time: 2016/04/30 16:30:56
+date: 2016/04/30 16:30:56
 tags:
 - Binary Search
 - Array

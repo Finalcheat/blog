@@ -1,5 +1,5 @@
 title: 证明单链表是否是回文
-create_time: 2016/05/14 14:04:09
+date: 2016/05/14 14:04:09
 tags:
 - Linked List
 - Two Pointers

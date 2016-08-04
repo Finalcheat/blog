@@ -1,5 +1,5 @@
 title: 判断二叉树是否对称
-create_time: 2016/03/21 14:08:36
+date: 2016/03/21 14:08:36
 tags:
 - Tree
 - Depth-first Search

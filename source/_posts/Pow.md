@@ -1,5 +1,5 @@
 title: 求x的n次方
-create_time: 2016/05/16 21:01:09
+date: 2016/05/16 21:01:09
 
 ---
 ## [Pow(x, n)](https://leetcode.com/problems/powx-n/)

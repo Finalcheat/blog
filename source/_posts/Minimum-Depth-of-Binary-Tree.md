@@ -1,5 +1,5 @@
 title: 二叉树最小深度
-create_time: 2016/03/24 15:29:09
+date: 2016/03/24 15:29:09
 tags:
 - Tree
 - Depth-first Search

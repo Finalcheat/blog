@@ -1,5 +1,5 @@
 title: 最小栈
-create_time: 2016/04/12 20:42:05
+date: 2016/04/12 20:42:05
 tags:
 - Stack
 - Design

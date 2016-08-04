@@ -1,5 +1,5 @@
 title: 素数的个数
-create_time: 2016/05/17 21:03:46
+date: 2016/05/17 21:03:46
 tags:
 - Hash Table
 - Math

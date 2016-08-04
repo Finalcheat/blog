@@ -1,5 +1,5 @@
 title: 快乐数
-create_time: 2016/04/03 12:36:45
+date: 2016/04/03 12:36:45
 tags:
 - Math
 - Hash Table

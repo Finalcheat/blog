@@ -1,5 +1,5 @@
 title: 验证变位词
-create_time: 2016/03/07 14:20:01
+date: 2016/03/07 14:20:01
 tags:
 - Hash Table
 - Sort

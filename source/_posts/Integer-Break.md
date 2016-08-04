@@ -1,5 +1,5 @@
 title: 分解整数乘积最大
-create_time: 2016/04/19 20:38:09
+date: 2016/04/19 20:38:09
 tags:
 - Dynamic Programming
 - Math

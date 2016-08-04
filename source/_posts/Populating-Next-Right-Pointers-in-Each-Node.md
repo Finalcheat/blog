@@ -1,5 +1,5 @@
 title: 完美二叉树添加next指针
-create_time: 2016/04/16 19:49:03
+date: 2016/04/16 19:49:03
 tags:
 - Tree
 - Depth-first Search

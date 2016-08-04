@@ -1,5 +1,5 @@
 title: 使用栈实现队列
-create_time: 2016/04/10 13:03:45
+date: 2016/04/10 13:03:45
 tags:
 - Stack
 - Design

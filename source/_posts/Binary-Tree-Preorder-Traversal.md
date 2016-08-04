@@ -1,5 +1,5 @@
 title: 二叉树非递归前序遍历
-create_time: 2016/03/08 19:22:35
+date: 2016/03/08 19:22:35
 tags:
 - Tree
 - Stack

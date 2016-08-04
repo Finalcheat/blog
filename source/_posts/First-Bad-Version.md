@@ -1,5 +1,5 @@
 title: 第一个坏的版本
-create_time: 2016/05/26 22:07:08
+date: 2016/05/26 22:07:08
 tags:
 - Binary Search
 categories:

@@ -1,5 +1,5 @@
 title: 二叉树路径
-create_time: 2016/03/09 14:16:49
+date: 2016/03/09 14:16:49
 tags:
 - leetcode
 - Tree
