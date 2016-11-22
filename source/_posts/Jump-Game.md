@@ -1,5 +1,5 @@
 title: 跳跃游戏
-create_time: 2016/05/20 20:40:26
+date: 2016/05/20 20:40:26
 tags:
 - Array
 - Greedy

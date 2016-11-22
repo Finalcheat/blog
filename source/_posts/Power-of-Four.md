@@ -1,5 +1,5 @@
 title: 判断一个数字是否是4的幂次方
-create_time: 2016/05/05 21:07:36
+date: 2016/05/05 21:07:36
 tags:
 - Bit Manipulation
 categories:

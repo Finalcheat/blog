@@ -1,5 +1,5 @@
 title: 递增的三元子序列
-create_time: 2016/05/19 20:23:35
+date: 2016/05/19 20:23:35
 categories:
 - leetcode
 - C++

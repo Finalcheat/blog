@@ -1,5 +1,5 @@
 title: 阶乘结果数字后缀0的个数
-create_time: 2016/06/05 22:23:35
+date: 2016/06/05 22:23:35
 tags:
 - Math
 categories:

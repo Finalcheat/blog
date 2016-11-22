@@ -1,5 +1,5 @@
 title: 单链表删除倒数第n个节点
-create_time: 2016/03/18 15:22:34
+date: 2016/03/18 15:22:34
 tags:
 - Linked List
 - Two Pointers

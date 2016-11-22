@@ -1,5 +1,5 @@
 title: 杨辉三角
-create_time: 2016/05/29 19:52:25
+date: 2016/05/29 19:52:25
 tags:
 - Array
 categories:

@@ -1,5 +1,5 @@
 title: 已排序的链表中删除重复的节点
-create_time: 2016/03/09 14:01:06
+date: 2016/03/09 14:01:06
 tags:
 - Linked List
 categories:

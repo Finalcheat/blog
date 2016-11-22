@@ -1,5 +1,5 @@
 title: 二叉树根到叶节点的路径和
-create_time: 2016/04/24 14:45:56
+date: 2016/04/24 14:45:56
 tags:
 - Tree
 - Depth-first Search

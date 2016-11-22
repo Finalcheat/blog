@@ -1,5 +1,5 @@
 title: 生成括号配对
-create_time: 2016/04/15 19:51:26
+date: 2016/04/15 19:51:26
 tags:
 - Backtracking
 - String

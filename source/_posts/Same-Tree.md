@@ -1,5 +1,5 @@
 title: 判断二叉树是否相同
-create_time: 2016/03/07 14:01:05
+date: 2016/03/07 14:01:05
 tags:
 - Tree
 - Depth-first Search

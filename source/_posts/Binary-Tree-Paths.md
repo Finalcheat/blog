@@ -1,5 +1,5 @@
 title: 二叉搜索树路径
-create_time: 2016/04/20 20:01:47
+date: 2016/04/20 20:01:47
 tags:
 - Tree
 - Depth-first Search

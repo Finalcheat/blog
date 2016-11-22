@@ -1,5 +1,5 @@
 title: 最佳时间买入卖出股票
-create_time: 2016/04/17 10:46:55
+date: 2016/04/17 10:46:55
 tags:
 - Dynamic Programming
 categories:

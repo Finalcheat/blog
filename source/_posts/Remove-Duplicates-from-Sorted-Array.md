@@ -1,5 +1,5 @@
 title: 从已排序的数组中删除重复的元素
-create_time: 2016/05/06 20:35:09
+date: 2016/05/06 20:35:09
 tags:
 - Array
 - Two Pointers

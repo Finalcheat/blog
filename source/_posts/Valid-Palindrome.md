@@ -1,5 +1,5 @@
 title: 验证字符串是否是回文
-create_time: 2016/07/20 22:45:09
+date: 2016/07/20 22:45:09
 tags:
 - Two Pointers
 - String

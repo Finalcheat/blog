@@ -1,5 +1,5 @@
 title: 删除元素
-create_time: 2016-05-01
+date: 2016-05-01
 tags:
 - Array
 - Two Pointers

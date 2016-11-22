@@ -1,5 +1,5 @@
 title: 格雷码
-create_time: 2016/04/18 20:55:36
+date: 2016/04/18 20:55:36
 tags:
 - Backtracking
 categories:

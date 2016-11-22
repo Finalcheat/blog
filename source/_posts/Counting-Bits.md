@@ -1,5 +1,5 @@
 title: 数字bit表示1的个数
-create_time: 2016/03/29 20:50:07
+date: 2016/03/29 20:50:07
 tags:
 - Dynamic Programming
 - Bit Manipulation

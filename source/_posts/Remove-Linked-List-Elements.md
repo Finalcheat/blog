@@ -1,5 +1,5 @@
 title: 删除指定元素的链表节点
-create_time: 2016/04/07 20:33:35
+date: 2016/04/07 20:33:35
 tags:
 - Linked List
 categories:

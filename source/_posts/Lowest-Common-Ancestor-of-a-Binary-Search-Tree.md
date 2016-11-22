@@ -1,5 +1,5 @@
 title: 二叉搜索树最近公共祖先
-create_time: 2016/06/01 20:20:01
+date: 2016/06/01 20:20:01
 tags:
 - Tree
 categories:

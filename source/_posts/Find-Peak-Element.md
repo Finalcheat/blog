@@ -1,5 +1,5 @@
 title: 寻找数组中的Peak元素
-create_time: 2016/05/13 20:16:25
+date: 2016/05/13 20:16:25
 
 ---
 ## [Find Peak Element](https://leetcode.com/problems/find-peak-element/)

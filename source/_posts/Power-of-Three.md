@@ -1,5 +1,5 @@
 title: 判断一个数是否是3的幂
-create_time: 2016/04/05 20:32:08
+date: 2016/04/05 20:32:08
 tags:
 - Math
 categories:
