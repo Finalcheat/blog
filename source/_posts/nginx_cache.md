@@ -1,5 +1,5 @@
 title: Nginx缓存基本配置
-create_time: 2016/11/22 23:27:09
+date: 2016/11/22 23:27:09
 tags:
 - Nginx
 - Cache
