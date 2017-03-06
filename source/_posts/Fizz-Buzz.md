@@ -13,7 +13,6 @@ categories:
 > Example:
 <pre>
 n = 15,
-
 Return:
 [
     "1",
